@@ -1,4 +1,4 @@
-# Proyek E-Commerce
+# Tokopetei
 
 Repositori ini berisi kode sumber untuk aplikasi E-Commerce full-stack, yang dibuat dengan frontend React and backend Django.
 
@@ -30,3 +30,4 @@ Proyek Django untuk API backend.
 4.  `pip install -r requirements.txt`
 5.  `python manage.py migrate`
 6.  `python manage.py runserver`
+
