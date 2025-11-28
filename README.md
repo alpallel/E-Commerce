@@ -1,25 +1,32 @@
-# E-Commerce Project
-This repository contains the source code for a full-stack E-Commerce application, built with a React frontend and a Django backend.
+# Proyek E-Commerce
 
-### Project Structure
-- backend/SBF-PTI-E-Commerce: Django project for the server-side application.
-- frontend/e-commerce-kitah: React project for the client-side user interface.
+Repositori ini berisi kode sumber untuk aplikasi E-Commerce full-stack, yang dibuat dengan frontend React and backend Django.
+
+### Fitur
+-   **Autentikasi Pengguna**: User dapat register, login, dan logout.
+-   **Daftar Produk**: Menampilkan semua produk yang tersedia.
+-   **Detail Produk**: Melihat detail informasi untuk setiap produk.
+-   **Keranjang Belanja**: Pengguna dapat menambahkan produk ke keranjang, melihat isi keranjang, dan menghapus produk dari keranjang.
+
+### Struktur Proyek
+-   `backend/SBF-PTI-E-Commerce`: Proyek Django untuk aplikasi sisi server.
+-   `frontend/e-commerce-kitah`: Proyek React untuk antarmuka pengguna sisi klien.
 
 ### Frontend (e-commerce-kitah)
-React application for the user interface.
+Aplikasi React untuk antarmuka pengguna.
 
-**To run the frontend:**
-1. cd frontend/e-commerce-kitah
-2. npm install
-3. npm run dev
+**Untuk menjalankan frontend:**
+1.  `cd frontend/e-commerce-kitah`
+2.  `npm install`
+3.  `npm run dev`
 
 ### Backend (SBF-PTI-E-Commerce)
-Django project for the backend API.
+Proyek Django untuk API backend.
 
-**To run the backend:**
-1. cd backend/SBF-PTI-E-Commerce
-2. python -m venv venv
-3. venv\Scripts\activate
-4. pip install -r requirements.txt
-5. python manage.py migrate
-6. python manage.py runserver
+**Untuk menjalankan backend:**
+1.  `cd backend/SBF-PTI-E-Commerce`
+2.  `python -m venv venv`
+3.  `venv\Scripts\activate`
+4.  `pip install -r requirements.txt`
+5.  `python manage.py migrate`
+6.  `python manage.py runserver`
