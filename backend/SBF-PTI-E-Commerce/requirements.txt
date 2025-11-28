@@ -7,3 +7,4 @@ urllib3
 djangorestframework
 django-cors-headers
 Pillow
+dj-database-url

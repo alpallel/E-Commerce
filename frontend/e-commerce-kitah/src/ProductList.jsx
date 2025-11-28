@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Counter from "./Counter.jsx";
 import { useSelection } from "./context/SelectionContext.jsx";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://alpallel.pythonanywhere.com/";
 const initialProducts = [];
 
 function ProductList() {
